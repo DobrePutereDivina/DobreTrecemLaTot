@@ -1,0 +1,243 @@
+1. Separarea topologiei logice a LAN-urilor de topologia fizica se realizeaza prin : WiFi, 
+Ethernet, VLAN, WLAN (google?)
+2. Numarul de esantioane pe secunda reprezinta conceptul de: rata de simboluri, baud, 
+rata de biti, largime de banda (slide 64)
+3. Care afirmatie este falsa? Cu ajutorul comenzii netstat se pot obtine urmatoarele 
+informatii: listarea conexiunilor si porturilor deschise, tabela de rutare, adrese Ethernet, 
+statistici de protocol (google)
+4. Retelele care au un singur canal de comunicatie partajat de toate masinile din retea 
+sunt: retele punct la punct, retele WAN, retele cu difuzare, retele cu comutare de 
+circuite (slide 131)
+5. Functia de “windowing” a nivelului transport se refera la transmiterea datelor de la 
+emitator la receptor… : cu confirmare dupa fiecare pachet de date, cu confirmare dupa 
+mai multe pachete de date, cu stabilirea conexiunii in 3 etape, cu stocarea intr-o zona 
+tampon, numita buffer (slide 109)
+6. Comanda prin care se poate afisa tabela de corespondenta dintre adrese IP si adrese 
+MAC este: netstat, arp, nslookup, ipconfig (google)
+7. Solutionarea problemei alterarii sau distrugerii cadrelor se realizeaza in cadrul nivelului 
+legatura de date prin: cadru de confirmare, retransmisia codului, decodificare, codificare
+(slide 71) sau prima (who knows?)
+8. Mai multe calculatoare autonome, transparente pentru utilizator reprezinta: un sistem 
+distribuit, o retea de calculatoare, un sistem paralel, noduri de comunicatie (?)
+9. Operatiile folosite pentru implementarea unui serviciu orientat pe conexiune intr-un 
+mediu client server sunt: *LISTEN, CONNECT, RECEIVE, SEND, DISCONNECT (slide 4)
+10. Comanda prin care se va verifica starea unui host de la distanta este: netstat, ftp, ping, 
+ipconfig
+11. Identificarea proceselor se face prin intermediul: adreselor IP, socket-ului, numerelor 
+protocoalelor, porturilor (slide 114)
+12. Care din urm caracteristici ale ruterelor este falsa? Foloseste adrese hardware, asigura 
+servicii de rutare, nu directioneaza pachete de tip broadcast sau multicast, folosesc 
+adrese logice (?)
+13. UDP ofera un serviciu de transmisie a: datagramelor fara conexiune, fluxului continuu de 
+date, datagramelor cu conexiune, datelor neduplicate (slide 10)
+14. Serviciile fara conexiune: sunt sigure, se bazeaza pe sistemul telefonic, au mesaje 
+scurte, contin adresele expeditorului (slide 4)
+15. Informatii despre starea conexiunii TCP/IP cum ar fi CLOSE_WAIT, CLOSED, ESTABLISHED 
+……. Sunt afisate de comanda: netstat -a -n, arp, route print, netstat -s
+16. Pe serverele de FTP anonymous transferul implicit permis este: doar download, in 
+ambele sensuri, doar upload (?)
+17. Protocoalele care utilizeaza UDP sunt: TFTP, FTP, DNS, HTTP 
+18. Tehnica prin care adresele IP ale unei retele locale pot fi duplicate, atata timp cat nu 
+sunt utilizate in exterior se numeste: CIDR, IP masquerading, DHCR, NAT (?)
+19. Primul (cu nr cel mai mic) dintre nivelurile end-to-end este nivelul: transport, legatura 
+de date, aplicatie, retea
+20. Arhitectura FDDI se bazeaza pe topologia logica: cu 2 inele, magistrala, bus, cu 1 inel
+21. Care afirmatie este falsa privind socket-ul? este un punct de comunicatie, este 
+identificat printr-un descriptor, informatia este transmisa sub froma unui flux de bytes, 
+este identificat printr-un sir de caractere
+22. Accesul de baza 2B+D se utilizeaza in retelele: Frame Relay, ISDN, ATM, X.25
+23. Transformarea dintre adresa IP a unui calculator si numele lui simbolic se realizeaza de 
+catre serviciul: SMTP, Web, DNS, FTP
+24. TIME TO LIVE: CAT MAI ARE DE “TRAIT” PACHETUL IN RETEA
+25. Modalitatea in care pachetele sunt trimise spre mediul de transmisie este stabilita de: 
+nivelul retea, subnivelul LLC, nivelul fizic, subnivelul MAC 
+26. Dintre protocoalele rutate fac parte: OSPF, IP, EIGRP, RIP
+27. Frame-uri (cadre) se utilizeaza in modelul ISO/OSI la nivelul: legatura de date, retea, 
+transport, fizic
+28. In care tip de topologie echipamentele sunt conectate la un hub central? Stea, inel, 
+magistrala, mesh, hibrida
+29. Ce tip de retea foloseste protocolul CSMA/CD pentru controlul coliziunilor? a) internet 
+b) FDDI c) Ethernet d) retea cu comutare de circuite e) apple talk
+30. Care din urmatoarele tehnologii este o tehnologie LAN? a) DSL b) HDSL c) satelit 
+d) token ring e) MODEM 
+31. Care din urmatoarele nivele nu este un sub-nivel IEEE? a) Media Access Control b) Data 
+Link Control c) Logic Link Control d) Nici una dintre variante (googled it)
+32. Care dintre urmatoarele acronime reprez. numarul unic atribuit de catre IEEE pentru 
+producatorii de placi de retea? a) OUI b) BIA c) UAA d) LAA e) MAC
+33. De ce tip de retea are nevoie un utilizator pt a face cumparaturi online? a) Intranet b) 
+Extranet c) Internet d) Retea locala e) Intranet si Extranet
+34. Ce comanda poate fi folosita pe un calculator Windows pt a vedea configuratia IP de 
+retea? a) ping b) displayip c) netstat d) show config e) ipconfig
+35. Ce protocol este responsabil cu controlul dimensiunii si ratei de transfer a mesajelor HTTP 
+schimbate intre un client si un server? a) HTTP b) ARP c) TCP d) DHCP e) UDP
+36. Un client web trimite o cerere de incarcare a unei pagini web catre un server web. Din 
+perspectiva clientului, care este ordinea corecta a stivei de protocoale utilizate pentru a 
+pregati aceasta cerere pentru a fi transmisa? a) HTTP, IP, TCP, Ethernet b) HTTP, TCP, IP, 
+Ethernet c) Ethernet, TCP, IP, HTTP d) Ethernet, IP, TCP, HTTP e) Ethernet, IP, TCP, HTTP
+37. Ce standard IEEE permite unei placi de retea wireless sa se conecteze la un AP ce este 
+constituit de alt producator? a) 802.1 b) 802.11 c) 802.3 d) 802.5 e)802.2
+38. Volumul lucrarilor ce pot fi efectuate intr-o unitate de timp reprezinta: capacitatea retelei, 
+durata de raspuns, costul retelei, fiabilitatea retelei
+39. Un administrator de retea trebuie sa imbunatateasca performantele accesului wireless al 
+utilizatorilor din companie. Pentru a putea oferi rate de acces de pana la 1,3 gb/s si a 
+asigura in acelasi timp compatibilitatea cu echipamente mai vechi, ce standard wireless 
+trebuie implementat? a) 802.11n b) 802.11ac c) 802.11 ac d) 802.11g e) 802.11b
+40. Care este scopul campului FCS dintr-un frame? a) ajuta la determinarea adresei MAC a 
+nodului transmitator b) ajuta la verificarea adresei logice a nodului transmitator c) ajuta 
+la calculul header-ului CRC al campului de date d) verifica daca au aparut erori la 
+transmisie si/sau receptive e) verifica daca exista conexiuni intre retele virtuale
+41. Ce indica un PING incheiat cu success catre adresa IPv6::1? a) Calculatorul este cablat 
+corespunzator. b) Adresa pentru DEFAULT GATEWAY este corespunzator configurata c) 
+Toate host-urile de pe local link sunt disponibile d) Adresa link-local este correct 
+configurata e) Protocolul IP este correct instalat pe calculator
+42. Ce protocol foloseste utilizatorul PING pentru a testa conectivitatea dintre doua host-uri 
+TCP/IP? a) ICMP b) SMTP c) SNMP d) IRC e) TFP
+43. Care dintre urmatoarele tipuri de retele utilizeaza un “token” pentru a acorda acces la 
+retea statiilor gazda (selectati doua)? a) Token Ring b) Ethernet c) FDDI d) Frame Relay 
+e) GSM
+44. Ce nivel din modelul TCP/IP corespunde nivelului 3 din modelul OSI?a) retea b)legatura 
+de date c) fizic d) internet e) transport
+45. Ce protocol de nivel aplicatie foloseste msaje de genul GET, PUT si POST? a) DNS 
+b) POP3 c) Gnutella d) Mail e) HTTP
+46. Cum se numeste secventa de biti aflata la inceputul unui frame 802.3? a) FCS b) tipul 
+de frame c) preambul d) adresa sursa e) adresa destinatie
+47. Care dintre urmatoarele afirmatii reprezinta o caracteristica a cloud computing-ului? a) o 
+companie se poate conecta la internet fara ajutorul unui ISP b) aplicatiile pot fi accesate 
+prin Internet prin internediul unui abonament c) echipamentele se pot conecta la Internet 
+doar prin intermediul retelei electrice existente d) este necesata o investitie intr-o noua 
+infrastructura de retea pentru a accesa cloud-ul.
+48. Un calculator dintr-o retea comunica cu un anumit grup de calculatoare. Ce tip de 
+comunicatie este acesta? a) broadcast b) multicast c) unicast d) FTP e) TFTP 
+49. Ce metoda poate fi folosita in comunicatia dintre doua computere pentru a asigura faptul 
+ca nu se pierd pachete de date din cauza transmiterii unui volum prea mare de date prea 
+repede? a) incapsularea b) CSMA/CD c) CSMA/CA d) controlul fluxului e) 
+multiplexarea
+50. Un utilizator vizualizeaza un document HTML situate pe server web. Ce protocol 
+segmenteaza mesajele si administreaza segmentele de date din conversatiile individuale 
+dintre serverul web si clientul web? a) DHCP b) HTTP c) TCP d)HTTPS e)ARP
+51. Ce domeniu de valori pentru primul octet al unei adrese IP identifica un multicast: a) 224 
+-240 b) 224 -236 c) 224- 239 d) 224- 254 e) 224 – 230
+52. In ce mod nivelul retea directioneaza pachetele de la sursa catre destinatie? a) prin 
+utilizarea raspunsurilor ARP b) prin utilizarea unor tabele de rutare c) prin utilizarea unui 
+server de nume d) prin utilizarea unui bridge e) prin utilizarea protocolului RARP
+53. Ce adresa corespunde adresei IPv6 complete FE80:0:0:02AA:FF9A:4CA3 reprezinta cea 
+mai buna varianta comprimanta? a) FEB:2AA:FF:FE9A:4CA3 b) FE80:2AA:FF:FE9A:4CA3 c) 
+FE80:0:2AA:FF:FE9A:4CA3 d) FE80:0:2AA:FF:FE9A:4CA3
+54. Care din urmatoarele sarcini sunt functii ale nivelului prezentare (alegeti doua)? 
+a) compresia datelor b) adresarea c) criptarea d)controlul sesiunii e)autentificarea
+55. Care este avantajul (in cazul micilor companii) utilizarii IMAP in locul protocolului POP? a) 
+mesajele sunt tinute pe serverel;e de email pana cand utilizatorii le sterg manual. b) in 
+cazul serverului POP copii ale mesajelor raman pe server pentru o perioada scurta de 
+timp, in timp ce IMAP le pastreaza pt o perioada mai lunga de timp c) IMAP trimite si 
+receptioneaza email-ul in timp ce POP doar receptioneaza email-ul d) POP permite 
+stocarea centralizata a mesajelor in timp ce IMAP permite stocarea distribuita e) nu exista 
+nici un avantaj al utilizarii IMAP in locul POP
+56. Care este lungimea unei adrese MAC? a) 8 biti b) 8 bytes c) 24 biti d) 24 bytes e) 48 biti 
+57. Tabela de rutare contine urmatoarele informatii: a. adresa de retea, metrica b. adrese de 
+retea, tip rutare, metrica c. adrese de retea, numele interfetei d. adrese de retea, numele 
+interfetei, metrica
+58. Dintre protocoalele rutate fac parte: OSP, EIRGS, RIP, IP
+59. Tehnica prin care adresele IP ale unei retele locale pot fi duplicate, atata timp cat nu sunt 
+utilizate in exterior se numeste: CIDR, IP Masquerading, DHCR, NAT
+60. 15. Ce domeniu de valori pentru primul octet al unei adrese IP identifica un multicast: a) 
+224 -240 b) 224 -236 c) 224- 239 d) 224- 254 e) 224 – 230
+61. Conectivitatea unui LAN la o retea WLAN se realizeaza prin conexiunea backnone-ului la 
+un: a. Router b. Gateway c. Bridge d. Switch
+62. Care camp din antetul diagramei Ipv4 se modifica la fiecare salt, la trecerea dintr-o retea 
+in alta: a. timp de viata b. adresa destinatie c. Protocol d. lungime totala(?)
+63. In reteaua cu adresa IP 20.0.0.0 se utilizeaza masca de subretea 255.255.192.0. Numarul 
+maxim de subretele este: a. 8190 b. 8192 c. 1024 d. 1022 – calculator de pe net
+64. Protocolul SMTP este folosit pentru: a. navigare web b. transfer de date c. conectare la 
+distanta d. posta electronica
+65. In cadrul modelului ISO/OSI, repetatorul(repetorul / hub) functioneaza la nivelul: a. 
+Transport b. Fizic c. legatura de date d. Retea
+66. Dupa tehnologia de transmisie, retele pot fi: a. cu difuzare b. fara comutare c. cu comutare
+d. de tip stea
+67. Trimiterea datelor(digitale) pe o linie telefonica (analogica) presupune: 
+a. modulare/demodulare b. codificare/decodificare c. serializare/deserializare d. 
+decuplare electromacnetica
+68. Implementarea protocolului HDLC in LAN-uri este realizata prin a. LLC b. DSLC c. LAP-B d. 
+LAP-D e. PPP
+69. CSMA/CD reprezinta o metoda de acces:a. fara colinziuni b. cu conflict limitat c. cu 
+detectarea purtatoarei d. cu acces multiplu si detectia purtatoarei e. fara cuantificare
+70. 8. Numarul C22F1582 transfomrat intr-o notatie zecimala cu puncte reprezinta o adresa 
+Ipv4 din: a. clasa A b. clasa B c. clasa C d. clasa D e. nu este o clasa IP (c2 din hexa in decimal 
+= 194, verifici clasa)
+71. Adresa IP specificata prin notatia 199.198.10.0/24 se refera la: a. 1 retea si 254 hosturi b. 
+2 subretele si 126 hosturi c. 8 subretele si 62 hosturi d. 16 subretele si 14 hosturi e. 32 
+subretele si 6 hosturi hosturi – calculator: IPv4 Subnet Calculator - 199.198.10.0/24 
+(exampointers.com)
+72. Functia de alocare a canalului de comunicatie unei statii este asigurata prin : a. nivelul 
+retea b. subnivelul MAC c. subnivelul LLC d. nivelul fizic e. Transport
+73. Care dintre urmatoarele afirmatii nu este o functiei a protocolului IP: a. definirea planului 
+de adresare Internet b. directionarea unitatilor de date catre calculatoarele de la distanta
+c. fragmentarea si reasamblarea unitatilor de date d. definirea unitatilor de baza pentru 
+transmisia prin Internet e. suport al dialogului intre procese
+74. Care este protocolul suplimentar care permite datelor non-ACII sa fie transmise prin posta 
+electronica ? a. MPEGb. RFC 822c. SMTP d. MIME e. POP3
+75. Codificarea Manchester se utilizeaza in retelele de calculatoare pentru: a. detectarea 
+erorilor de transmisie b. criptarea datelor c. sincronizarea intre emitator si receptor d. 
+prelucrarea datelor e. detectarea si corectarea erorilor de transmisie
+76. Adresa portului este specificata pe: a. 32 biti b. 16 biti c. 24 biti d. 64 biti e. 8 biti
+77. Comunicatia intre un singur emitent si toate calculatoarele unei retele (unu la toti) este 
+clasificata ca o comunicatie: a. Unicast b. multicast c. Broadcast d. niciuna din cele 
+enumerate anterior
+78. Dispozitivul de retea care amplifica sau regenereaza semnalul in scopul distantei de 
+transmisie este: a. Repetor b. ruter c. Proxy d. Server e. Bridge
+79. Vulnerabilitatea unui sistem IT este definita ca fiind: a. orice circumstanta sau eveniment 
+care ar putea produce pagube in sistem b. procesul de interceptare a utilizatorilor, 
+dispozitivelor sau altor entitati dint-un sistem de calcul intr-un mod neautorizat c. o 
+slabiciune care poate declansa accidental sau intentionat o anumita exploatare 
+neautorizata a sistemului d. actiunea de exploatare a unei slabiciuni a sistemului
+80. ICMP se utilizeaza pentru: a. informarea hostului sursa despre erorile de transmisie b. 
+determinarea rutei datagramelor IP c. filtrarea traficului din retea d. transmisia de mesaje 
+urgente e. testarea conectivitatii intre doua hosturi
+81. Functia de stabilire a unei corespondente intre adresa IP si adresa MAC revine 
+protocolului: a. ICMP b. RIP c. ARP d. UDP e. RARP
+82. O clasificare a retelelor de calculatoare in LAN, MAN, WAN se poate realiza daca se face 
+apel la criteriul : a. software de comunicatie b. echipament harware c. tipul subretelei de 
+comunicatie d. distanta dintre statii e. topologia retelei
+83. Pentru protocolul IEEE 802.5, campul FC din structura cadrului permite : a. adresarea 
+destinatiei cadrului b. sincronizarea cu statia receptoare c. corectarea erorilor de 
+transmisie d. identificarea tipului cadru e. detectarea erorilor 
+84. Semnificatia notatiei 10Base5 este : a. debit-100 Mbiti/s, banda de baza, numar statii pe 
+segment-500 b. debit-10 Mbiti/s, banda de baza, distanta dintre statii-5m c. debit-10 
+Mbiti/s, banda de baza, lungimea segmentului -500 m d. debit-10 Mbiti/s, banda de baza, 
+lungimea segmentului -50 m e. debit-10 Mbiti/s, banda de baza, numar statii pe segment50
+85. Protocoalele de rutare asigura: a. directionarea datelor de transmis b. reacutalizarea 
+informatiilor din tabelele de rutare c. adresarea rutelor d. identificarea tipului de sistem 
+intermediar e. identificarea tabelelor de rutare
+86. Pentru a accesa un host in Internet printr-un nume simbolic se apeleaza protocolul : a. 
+TCP b. SNMP c. POP3 d. DNS e. OSPF
+87. Topologia unei retele locale care utilizeaza norma IEEE 802.5 este: a. Inel b. stea c. plasa 
+total conectata d. Arbore e. Magistrala
+88. Utilizarea token-ului este o tehnica de acces la canalul de comunicatie in nod: a. 
+Determinist b. aleatoriu c. static, prin multiplexarea in timp d. centralizate. static, prin 
+multiplicarea in frecventa
+89. Retelele Ethernet utilizeaza standardul IEEE: a. 802.5 b. 802.4 c. 802.11 d. 802.12 e. 802.3
+90. Transmisia in banda larga are urmatoarele caracteristici: a. Utilizeaza tehnica radio pentru 
+efectuarea modularii b. emitatorul este o sursa de frecventa c. Semnalul purtator este 
+sinusoidal d. Emitatorul este un generator de curent e. Pot fi variate amplitudinea, 
+frecventa, faza
+91. Protocoalele ICMP, IGP, ARP, RARP, IP apartin nivelului : retea, legatura de date, fizic, 
+transport, aplicatie
+92. Ce protocol se utilizeaza pentru livrarea email-urilor? Webmail TCP POP3 SMTP IMAP
+93. Ce este o retea? a) un software care oferă un grad mare de coeziune și transparență b) 
+un set de dispozitive (deseori numite noduri) conectate prin legături media c) un 
+backbone d) un canal de comunicație
+94. O caracteristică a rețelelor de calculatoare este: a) durata de răspuns b) amplitudinea c) 
+dimensiunea d) accelerația
+95. Ce este o rețea de comutare? a) o rețea punct la punct b) o rețea locală cu difuzare c) o 
+rețea cosmică d) o rețea radio
+96. Ce are la bază un serviciu fără conexiune? a) pachete de conexiune b) sistemul poștal c) 
+sistemul telefonic d) sistemul aviatic
+97. Ce are la bază un serviciu orientat pe conexiune? a) sistemul telefonic b) sistemul poștal
+c) serviciul de telegrame d) sistemul aviatic
+98. Modelul ISO/OSI:a) are o structură ierarhică pe niveluri b) are in vedere, în mod deosebit, 
+interconectivitatea c) desemnează interconectarea sistemelor deschise d) protocoalele 
+lui sunt folosite pe scară largă, deși modelul nu este foarte util
+99. Modelul TCP/IP: a) desemnează interconectarea sistemelor deschise b) protocoalele lui 
+sunt folosite pe scară largă, deși modelul nu este foarte util c) are o structură stratificată 
+pe niveluri d) are un model foarte folosit
+100. Ce protocol este folosit la nivel de aplicație pentru modelul TCP/IP? a) FTP b) TCP c) UDP 
+d) T/TCP
